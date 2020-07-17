@@ -8,23 +8,6 @@ function test_suite = solverTest()
     initTestSuite;
 end
 
-function solverTest()
-    test_functions = localfunctions();
-
-    for n_test = 1:size(test_functions)
-
-        try
-            test_func = test_functions{n_test};
-            test_func()
-            display([func2str(test_func), " succeeded"])
-        catch
-            display([func2str(test_func), " FAILED"])
-        end
-
-    end
-
-end
-
 function testRealSolution()
     actSolution = quadraticSolver(1, -3, 2);
     expSolution = [2 1];
