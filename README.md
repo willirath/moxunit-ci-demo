@@ -1,3 +1,3 @@
-# moxunit CI demo
+# MOxUnit CI demo
 
-![moxunit](https://github.com/willirath/moxunit_action/workflows/moxunit/badge.svg)
+![MOxUnit](https://github.com/willirath/moxunit_action/workflows/MOxUnit/badge.svg)
