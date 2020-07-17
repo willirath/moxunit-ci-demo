@@ -1,4 +1,4 @@
-function test_suite = test_assert_equal()
+function test_suite = solverTest()
 
     try % assignment of 'localfunctions' is necessary in Matlab >= 2016
         test_functions = localfunctions();
