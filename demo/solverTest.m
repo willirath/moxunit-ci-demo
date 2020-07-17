@@ -19,9 +19,3 @@ function testImaginarySolution()
     expSolution = [-1 + 3i -1 - 3i];
     assert(all(actSolution == expSolution));
 end
-
-function testImaginarySolutionFailing()
-    actSolution = quadraticSolver(1, 12, 10);
-    expSolution = [-1 + 3i -1 - 3i];
-    assert(all(actSolution == expSolution));
-end
