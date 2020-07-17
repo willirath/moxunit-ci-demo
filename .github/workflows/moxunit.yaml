@@ -1,11 +1,11 @@
-name: Test
+name: moxunit
 on: push
 jobs:
   run-moxunit:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: joergbrech/moxunit-action@master
+      - uses: joergbrech/moxunit-action@v1.1
         with:
           tests: demo
           src: demo
